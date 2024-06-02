@@ -17,4 +17,4 @@ app.add_page("Mildew Detection", page_mildew_detector_body)
 app.add_page("Project Hypothesis", hypothesis_page)
 app.add_page("ML Performance Metrics", performance_metrics_page)
 
-app.run()  # Run the ap
+app.run()  # Run the app

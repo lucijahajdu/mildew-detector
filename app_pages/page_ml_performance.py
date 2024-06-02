@@ -3,6 +3,7 @@ The code has been taken from Code Institute walkthrough project, and
 modified for the project
 """
 import streamlit as st
+print("Streamlit version:", st.__version__)
 import matplotlib.pyplot as plt
 import pandas as pd
 from matplotlib.image import imread
@@ -41,3 +42,5 @@ def performance_metrics_page():
     st.write("### Generalised Performance on Test Set")
     st.dataframe(pd.DataFrame(load_test_evaluation(
         version), index=['Loss', 'Accuracy']))
+
+
